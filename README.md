@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @patritha
 - 👀 I’m interested in game modding
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
+- 🌱 I’m currently learning html
+- 💞️ I’m looking to collaborate on nothing
 - 📫 How to reach me discord patritha#1239
 
 <!---
