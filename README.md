@@ -1,4 +1,4 @@
-RIP Eaglercraft
+RIP Eaglercraft <br>
 mojang is a NERD
 <!---
 patritha/patritha is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
