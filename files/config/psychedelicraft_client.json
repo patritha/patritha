@@ -30,11 +30,11 @@
     "shader2DEnabled": true,
     "shader3DEnabled": true,
     "doHeatDistortion": false,
-    "doWaterDistortion": false,
+    "doWaterDistortion": true,
     "doMotionBlur": true,
     "sunFlareIntensity": 0.25,
     "shadowPixelsPerChunk": 256,
-    "waterOverlayEnabled": true,
+    "waterOverlayEnabled": false,
     "hurtOverlayEnabled": true,
     "digitalEffectPixelRescale": {
       "x": 0.05,
