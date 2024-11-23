@@ -1,0 +1,44 @@
+{
+  "audio": {
+    "drugsWithBackgroundMusic": [
+      "psychedelicraft:alcohol",
+      "psychedelicraft:warmth",
+      "psychedelicraft:tobacco",
+      "psychedelicraft:sleep_deprivation",
+      "psychedelicraft:peyote",
+      "psychedelicraft:power",
+      "psychedelicraft:harmonium",
+      "psychedelicraft:sugar",
+      "psychedelicraft:atropine",
+      "psychedelicraft:lsd",
+      "psychedelicraft:zero",
+      "psychedelicraft:brown_shrooms",
+      "psychedelicraft:coccaine",
+      "psychedelicraft:kava",
+      "psychedelicraft:caffeine",
+      "psychedelicraft:cannabis",
+      "psychedelicraft:bath_salts",
+      "psychedelicraft:red_shrooms"
+    ]
+  },
+  "visual": {
+    "dofFocalPointNear": 0.2,
+    "dofFocalBlurNear": 0.0,
+    "dofFocalPointFar": 128.0,
+    "dofFocalBlurFar": 0.0,
+    "pauseMenuBlur": 0.0,
+    "shader2DEnabled": true,
+    "shader3DEnabled": true,
+    "doHeatDistortion": false,
+    "doWaterDistortion": false,
+    "doMotionBlur": true,
+    "sunFlareIntensity": 0.25,
+    "shadowPixelsPerChunk": 256,
+    "waterOverlayEnabled": true,
+    "hurtOverlayEnabled": true,
+    "digitalEffectPixelRescale": {
+      "x": 0.05,
+      "y": 0.05
+    }
+  }
+}
