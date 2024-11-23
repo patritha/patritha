@@ -48,23 +48,11 @@ echo ----
 echo cleaning up no longer needed things...
 ::delete mods
 cd "%instance%\mods"
-if exist jei-1.20.1-forge-15.3.0.4.jar (
-	del jei-1.20.1-forge-15.3.0.4.jar
-)
-if exist JeiTweaker-forge-1.20.1-8.0.6.jar (
-	del JeiTweaker-forge-1.20.1-8.0.6.jar
-)
-if exist justenoughbreeding-forge-1.20.x-1.2.1.jar (
-	del justenoughbreeding-forge-1.20.x-1.2.1.jar
-)
-if exist JustEnoughProfessions-forge-1.20.1-3.0.1.jar (
-	del JustEnoughProfessions-forge-1.20.1-3.0.1.jar
-)
-if exist JustEnoughResources-1.20.1-1.4.0.247.jar (
-	del JustEnoughResources-1.20.1-1.4.0.247.jar
-)
 if exist resourcefullib-forge-1.20.1-2.1.24.jar (
 	del resourcefullib-forge-1.20.1-2.1.24.jar
+)
+if exist emi-1.1.18+1.20.1+forge.jar (
+	del emi-1.1.18+1.20.1+forge.jar
 )
 ::delete scripts
 cd "%instance%\scripts"
