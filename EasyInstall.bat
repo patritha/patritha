@@ -63,6 +63,9 @@ if exist JustEnoughProfessions-forge-1.20.1-3.0.1.jar (
 if exist JustEnoughResources-1.20.1-1.4.0.247.jar (
 	del JustEnoughResources-1.20.1-1.4.0.247.jar
 )
+if exist resourcefullib-forge-1.20.1-2.1.24.jar (
+	del resourcefullib-forge-1.20.1-2.1.24.jar
+)
 ::delete scripts
 cd "%instance%\scripts"
 if exist jeiremove.zs (
