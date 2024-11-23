@@ -1,0 +1,3 @@
+EXTRACT THE ZIP ARCHIVE BEFORE RUNNING THE INSTALLER OR IT WILL NOT WORK
+
+there are multiple steps to installing because ive made some larger changes. because of this ive made and added and easy installer. before running it however you must know the exact file path of your minecraft instance. this can usually be accessed from your launcher and if you dont know how then google it. after you get to your instance .minecraft folder then copy the full file path including drive letter. then run the installer and paste it in when asked. if all goes well then everything will be installed automatically.
