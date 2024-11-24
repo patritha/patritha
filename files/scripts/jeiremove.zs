@@ -1,0 +1,245 @@
+import crafttweaker.api.GenericRecipesManager;
+import mods.jeitweaker.Jei;
+
+Jei.hideIngredients([
+// Biomes OP
+	<item:biomesoplenty:white_sand>,
+	<item:biomesoplenty:white_sandstone>,
+	<item:biomesoplenty:cut_white_sandstone>,
+    <item:biomesoplenty:cut_white_sandstone_slab>,
+	<item:biomesoplenty:chiseled_white_sandstone>,
+	<item:biomesoplenty:smooth_white_sandstone>,
+	<item:biomesoplenty:smooth_white_sandstone_slab>,
+	<item:biomesoplenty:smooth_white_sandstone_stairs>,
+	<item:biomesoplenty:white_sandstone_slab>,
+	<item:biomesoplenty:white_sandstone_stairs>,
+	<item:biomesoplenty:white_sandstone_wall>,
+	<item:biomesoplenty:smooth_black_sandstone_slab>,
+	<item:biomesoplenty:smooth_black_sandstone_stairs>,
+	<item:biomesoplenty:black_sandstone_slab>,
+	<item:biomesoplenty:black_sandstone_stairs>,
+	<item:biomesoplenty:black_sandstone_wall>,
+	<item:biomesoplenty:dried_salt>,
+	<item:biomesoplenty:orange_sandstone_stairs>,
+	<item:biomesoplenty:orange_sandstone_wall>,
+	<item:biomesoplenty:mossy_black_sand>,
+	<item:biomesoplenty:black_sand>,
+	<item:biomesoplenty:black_sandstone>,
+	<item:biomesoplenty:cut_black_sandstone>,
+	<item:biomesoplenty:cut_black_sandstone_slab>,
+	<item:biomesoplenty:chiseled_black_sandstone>,
+	<item:biomesoplenty:smooth_black_sandstone>,
+	<item:biomesoplenty:orange_sand>,
+	<item:biomesoplenty:orange_sandstone>,
+	<item:biomesoplenty:cut_orange_sandstone>,
+	<item:biomesoplenty:cut_orange_sandstone_slab>,
+	<item:biomesoplenty:chiseled_orange_sandstone>,
+	<item:biomesoplenty:smooth_orange_sandstone>,
+	<item:biomesoplenty:smooth_orange_sandstone_slab>,
+	<item:biomesoplenty:smooth_orange_sandstone_stairs>,
+	<item:biomesoplenty:orange_sandstone_slab>,
+	<item:biomesoplenty:maple_leaves>,
+	<item:biomesoplenty:blackstone_spines>,
+	<item:biomesoplenty:blackstone_bulb>,
+	<item:biomesoplenty:toadstool>,
+	<item:biomesoplenty:toadstool_block>,
+	<item:biomesoplenty:glowshroom>,
+	<item:biomesoplenty:glowshroom_block>,
+	<item:biomesoplenty:glowing_moss_block>,
+	<item:biomesoplenty:glowing_moss_carpet>,
+	<item:biomesoplenty:glowworm_silk>,
+	<item:biomesoplenty:spider_egg>,
+	<item:biomesoplenty:hanging_cobweb>,
+	<item:biomesoplenty:stringy_cobweb>,
+	<item:biomesoplenty:webbing>,
+	<item:biomesoplenty:origin_grass_block>,
+	<item:biomesoplenty:rose>,
+	<item:biomesoplenty:violet>,
+	<item:biomesoplenty:lavender>,
+	<item:biomesoplenty:tall_lavender>,
+	<item:biomesoplenty:blue_hydrangea>,
+	<item:biomesoplenty:wildflower>,
+	<item:biomesoplenty:goldenrod>,
+	<item:biomesoplenty:orange_cosmos>,
+	<item:biomesoplenty:pink_daffodil>,
+	<item:biomesoplenty:pink_hibiscus>,
+	<item:biomesoplenty:waterlily>,
+	<item:biomesoplenty:white_petals>,
+	<item:biomesoplenty:icy_iris>,
+	<item:biomesoplenty:glowflower>,
+	<item:biomesoplenty:wilted_lily>,
+	<item:biomesoplenty:burning_blossom>,
+	<item:biomesoplenty:sprout>,
+	<item:biomesoplenty:bush>,
+	<item:biomesoplenty:high_grass>,
+	<item:biomesoplenty:clover>,
+	<item:biomesoplenty:huge_clover_petal>,
+	<item:biomesoplenty:huge_lily_pad>,
+	<item:biomesoplenty:dune_grass>,
+	<item:biomesoplenty:desert_grass>,
+	<item:biomesoplenty:dead_grass>,
+	<item:biomesoplenty:tundra_shrub>,
+	<item:biomesoplenty:barley>,
+	<item:biomesoplenty:sea_oats>,
+	<item:biomesoplenty:cattail>,
+	<item:biomesoplenty:reed>,
+	<item:biomesoplenty:watergrass>,
+	<item:biomesoplenty:bramble_leaves>,
+// Cyclic
+	<item:cyclic:ender_book>,
+	<item:cyclic:inventory_cake>,
+	<item:cyclic:storage_bag>,
+	<item:cyclic:crafting_bag>,
+	<item:cyclic:crafting_stick>,
+	<item:cyclic:mob_container>,
+	<item:cyclic:magic_net>,
+	<item:cyclic:tile_transporter_empty>,
+	<item:cyclic:sleeping_mat>,
+	<item:cyclic:cable_wrench>,
+	<item:cyclic:lunchbox>,
+	<item:cyclic:anvil_void>,
+	<item:cyclic:crusher>,
+	<item:cyclic:uncrafter>,
+	<item:cyclic:anvil>,
+	<item:cyclic:anvil_magma>,
+	<item:cyclic:disenchanter>,
+	<item:cyclic:experience_pylon>,
+	<item:cyclic:energy_pipe>,
+	<item:cyclic:item_pipe>,
+	<item:cyclic:fluid_pipe>,
+	<item:cyclic:item_infinite>,
+	<item:cyclic:tile_transporter>,
+// Creative
+	<item:ae2:creative_item_cell>,
+	<item:ae2:creative_fluid_cell>,
+	<item:ae2:creative_energy_cell>,
+	<item:ars_nouveau:creative_spell_book>,
+	<item:ars_nouveau:creative_source_jar>,
+	<item:arseng:creative_source_cell>,
+	<item:cyclic:battery_infinite>,
+	<item:enderio:creative_power>,
+	<item:refinedstorageaddons:creative_wireless_crafting_grid>,
+	<item:rftoolspower:dimensionalcell_creative>,
+	<item:rftoolsutility:creative_screen>,
+	<item:rebornstorage:creative_super_wireless_crafting_grid>,
+	<item:refinedstorage:creative_storage_disk>,
+	<item:refinedstorage:creative_fluid_storage_disk>,
+	<item:refinedstorage:creative_wireless_grid>,
+	<item:refinedstorage:creative_wireless_fluid_grid>,
+	<item:refinedstorage:creative_wireless_crafting_monitor>,
+	<item:refinedstorage:creative_portable_grid>,
+	<item:refinedstorage:creative_storage_block>,
+	<item:refinedstorage:creative_fluid_storage_block>,
+	<item:refinedstorage:white_creative_controller>,
+	<item:refinedstorage:orange_creative_controller>,
+	<item:refinedstorage:magenta_creative_controller>,
+	<item:refinedstorage:creative_controller>,
+	<item:refinedstorage:yellow_creative_controller>,
+	<item:refinedstorage:lime_creative_controller>,
+	<item:refinedstorage:pink_creative_controller>,
+	<item:refinedstorage:gray_creative_controller>,
+	<item:refinedstorage:light_gray_creative_controller>,
+	<item:refinedstorage:cyan_creative_controller>,
+	<item:refinedstorage:purple_creative_controller>,
+	<item:refinedstorage:blue_creative_controller>,
+	<item:refinedstorage:brown_creative_controller>,
+	<item:refinedstorage:green_creative_controller>,
+	<item:refinedstorage:red_creative_controller>,
+	<item:refinedstorage:black_creative_controller>,
+	<item:universalgrid:creative_wireless_universal_grid>,
+	<item:integrateddynamics:energy_battery_creative>,
+// GeOre
+	<item:geore:ruby_block>,
+	<item:geore:large_ruby_bud>,
+	<item:geore:medium_ruby_bud>,
+	<item:geore:small_ruby_bud>,
+	<item:geore:ruby_cluster>,
+	<item:geore:budding_ruby>,
+	<item:geore:ruby_shard>,
+	<item:geore:ruby_spyglass>,
+	<item:geore:sapphire_block>,
+	<item:geore:large_sapphire_bud>,
+	<item:geore:medium_sapphire_bud>,
+	<item:geore:small_sapphire_bud>,
+	<item:geore:sapphire_cluster>,
+	<item:geore:budding_sapphire>,
+	<item:geore:sapphire_shard>,
+	<item:geore:sapphire_spyglass>,
+	<item:geore:topaz_block>,
+	<item:geore:large_topaz_bud>,
+	<item:geore:medium_topaz_bud>,
+	<item:geore:small_topaz_bud>,
+	<item:geore:topaz_cluster>,
+	<item:geore:budding_topaz>,
+	<item:geore:topaz_shard>,
+	<item:geore:topaz_spyglass>,
+	<item:georenouveau:ruby_geore_golem_charm>,
+	<item:georenouveau:sapphire_geore_golem_charm>,
+	<item:georenouveau:topaz_geore_golem_charm>,
+	<item:georenouveau:ruby_geore_dowsing_rod>,
+	<item:georenouveau:sapphire_geore_dowsing_rod>,
+	<item:georenouveau:topaz_geore_dowsing_rod>,
+
+	<item:reliquary:hero_medallion>,
+
+// Regions Unexplored
+	<item:regions_unexplored:raw_redstone_block>
+	]);
+
+recipes.remove(<item:regions_unexplored:raw_redstone_block>);
+
+//Cyclic
+recipes.remove(<item:cyclic:ender_book>);
+recipes.remove(<item:cyclic:inventory_cake>);
+recipes.remove(<item:cyclic:storage_bag>);
+recipes.remove(<item:cyclic:crafting_bag>);
+recipes.remove(<item:cyclic:crafting_stick>);
+recipes.remove(<item:cyclic:mob_container>);
+recipes.remove(<item:cyclic:magic_net>);
+recipes.remove(<item:cyclic:tile_transporter_empty>);
+recipes.remove(<item:cyclic:sleeping_mat>);
+recipes.remove(<item:cyclic:cable_wrench>);
+recipes.remove(<item:cyclic:lunchbox>);
+recipes.remove(<item:cyclic:anvil_void>);
+recipes.remove(<item:cyclic:crusher>);
+recipes.remove(<item:cyclic:uncrafter>);
+recipes.remove(<item:cyclic:anvil>);
+recipes.remove(<item:cyclic:anvil_magma>);
+recipes.remove(<item:cyclic:disenchanter>);
+recipes.remove(<item:cyclic:experience_pylon>);
+recipes.remove(<item:cyclic:energy_pipe>);
+recipes.remove(<item:cyclic:item_pipe>);
+recipes.remove(<item:cyclic:fluid_pipe>);
+recipes.remove(<item:cyclic:item_infinite>);
+recipes.remove(<item:cyclic:tile_transporter>);
+
+recipes.remove(<item:reliquary:hero_medallion>);
+
+recipes.remove(<item:georenouveau:ruby_geore_dowsing_rod>);
+recipes.remove(<item:georenouveau:sapphire_geore_dowsing_rod>);
+recipes.remove(<item:georenouveau:topaz_geore_dowsing_rod>);
+
+//gear fix
+craftingTable.removeByName("industrialforegoing:iron_gear");
+craftingTable.removeByName("industrialforegoing:gold_gear");
+
+//removes by recipes ID
+craftingTable.removeByName("lexchange:conversions/blocks/logs_to_obsidian");
+craftingTable.removeByName("lexchange:conversions/resources/emerald_to_diamond");
+craftingTable.removeByName("lexchange:conversions/blk_to_res_and_res_to_blk/iron_ingot_to_obsidian");
+craftingTable.removeByName("lexchange:conversions/blocks/clay_to_gravel");
+craftingTable.removeByName("lexchange:conversions/blocks/dirt_to_gravel");
+craftingTable.removeByName("lexchange:conversions/blocks/grass_to_sand");
+
+craftingTable.removeByName("georenouveau:coal_geore_dowsing_rod");
+craftingTable.removeByName("georenouveau:copper_geore_dowsing_rod");
+craftingTable.removeByName("georenouveau:diamond_geore_dowsing_rod");
+craftingTable.removeByName("georenouveau:emerald_geore_dowsing_rod");
+craftingTable.removeByName("georenouveau:gold_geore_dowsing_rod");
+craftingTable.removeByName("georenouveau:iron_geore_dowsing_rod");
+craftingTable.removeByName("georenouveau:lapis_geore_dowsing_rod");
+craftingTable.removeByName("georenouveau:quartz_geore_dowsing_rod");
+craftingTable.removeByName("georenouveau:redstone_geore_dowsing_rod");
+craftingTable.removeByName("georenouveau:zinc_geore_dowsing_rod");
+
+craftingTable.removeByName("structurecompass:structure_compass");

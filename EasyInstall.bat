@@ -33,14 +33,19 @@ if exist mods\ (
 )
 
 :movemods
-echo moving new mods...
+echo copying new mods...
 robocopy /is /it "%CD%\files\mods" "%instance%\mods" *.jar
 echo Done
 echo ----
 
 :moveconfig
-echo Moving configs...
+echo copying configs...
 robocopy /is /it "%CD%\files\config" "%instance%\config" *.*
+echo Done
+echo ----
+:movescripts
+echo copying scripts...
+robocopy /is /it "%CD%\files\scripts" "%instance%\scripts" *.*
 echo Done
 echo ----
 
@@ -54,11 +59,11 @@ if exist resourcefullib-forge-1.20.1-2.1.24.jar (
 if exist emi-1.1.18+1.20.1+forge.jar (
 	del emi-1.1.18+1.20.1+forge.jar
 )
-::delete scripts
-cd "%instance%\scripts"
-if exist jeiremove.zs (
-	del jeiremove.zs
+if exist infinity_stones_1.0.jar (
+	del infinity_stones_1.0.jar
 )
+::delete scripts
+
 echo Done
 echo ----
 
