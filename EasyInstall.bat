@@ -62,6 +62,9 @@ if exist emi-1.1.18+1.20.1+forge.jar (
 if exist infinity_stones_1.0.jar (
 	del infinity_stones_1.0.jar
 )
+if exist cloth-config-11.1.118-forge.jar (
+	del cloth-config-11.1.118-forge.jar
+)
 ::delete scripts
 
 echo Done
